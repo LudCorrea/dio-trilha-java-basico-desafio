@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+        // next() lê até o primeiro espaço enquanto nextLine() lê até encontrar uma
+        // quebra de linha.
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Por favor, digite o seu nome completo:");
